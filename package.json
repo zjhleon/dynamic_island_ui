@@ -12,9 +12,11 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
     "@vitejs/plugin-vue": "^3.1.0",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "typescript": "^4.6.4",
+    "unocss": "0.33.4",
     "vite": "^3.1.0",
     "vue-tsc": "^0.40.4"
   }
