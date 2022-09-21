@@ -1,0 +1,21 @@
+<!--
+ * @Descripttion: 
+ * @Author: zhangjiahao
+ * @Date: 2022-09-21 16:28:31
+ * @LastEditors: zhangjiahao
+ * @LastEditTime: 2022-09-21 16:35:04
+-->
+<h1>Demo</h1>
+<div id="app"></div>
+<script type="module">
+    import { createApp } from "vue/dist/vue.esm-bundler.js";
+    import dynamic_island_ui, { SFCButton, JSXButton, MyButton } from "../dist/dynamic_island_ui.esm.js";
+
+    createApp({
+        template: `
+<SButton/>
+<JSXButton/>
+<SFCButton/>
+    `}).component(SFCButton.name, SFCButton).mount('#app')
+
+</script>
