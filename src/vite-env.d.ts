@@ -1,5 +1,5 @@
 /*
- * @Descripttion: 
+ * @Descripttion:
  * @Author: zhangjiahao
  * @Date: 2022-09-21 16:03:15
  * @LastEditors: zhangjiahao
@@ -8,8 +8,8 @@
 /// <reference types="vite/client" />
 
 declare module '*.vue' {
-  import type { DefineComponent } from 'vue'
-  const component: DefineComponent<{}, {}, any>
-  export default component
+  import type { DefineComponent } from 'vue';
+  const component: DefineComponent<{}, {}, any>;
+  export default component;
 }
-declare module'vue/dist/vue.esm-browser';
+declare module 'vue/dist/vue.esm-browser';

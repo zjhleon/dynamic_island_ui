@@ -1,7 +1,15 @@
-import { createApp } from "vue/dist/vue.esm-browser";
-import SmartyUI from './entry'
+/*
+ * @Descripttion:
+ * @Author: zhangjiahao
+ * @Date: 2022-09-21 16:03:15
+ * @LastEditors: zhangjiahao
+ * @LastEditTime: 2022-09-22 15:54:25
+ */
+import { createApp } from 'vue/dist/vue.esm-browser';
+import SmartyUI from './entry';
+
 createApp({
-       template:`
+  template: `
        <div style="margin-bottom:20px;">
        <SButton color="blue">主要按钮</SButton>
        <SButton color="green">绿色按钮</SButton>
@@ -37,6 +45,6 @@ createApp({
        <SButton color="red" round plain icon="delete"></SButton>
    </div>
        `
-      })
-   .use(SmartyUI)
-   .mount("#app");
+})
+  .use(SmartyUI)
+  .mount('#app');
