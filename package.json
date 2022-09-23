@@ -1,7 +1,6 @@
 {
     "name": "dynamic_island_ui",
-    "private": true,
-    "version": "0.0.0",
+    "version": "0.0.2",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -45,5 +44,6 @@
         "vitepress-theme-demoblock": "^1.4.2",
         "vitest": "0.21.1",
         "vue-tsc": "^0.40.4"
-    }
+    },
+    "repository": "https://github.com/15700064961/dynamic_island_ui"
 }
