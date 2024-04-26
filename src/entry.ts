@@ -11,6 +11,7 @@ import SFCButton from './SFCButton.vue';
 import MyButton from './button';
 console.log('1111');
 console.log('2222');
+console.log('333');
 
 //导出单独组件
 export { JSXButton, SFCButton, MyButton };
