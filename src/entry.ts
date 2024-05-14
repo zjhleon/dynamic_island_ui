@@ -9,7 +9,7 @@ import { App } from 'vue';
 import JSXButton from './JSXButton';
 import SFCButton from './SFCButton.vue';
 import MyButton from './button';
-console.log('测试reverst');
+console.log('测试reverst1111');
 
 //导出单独组件
 export { JSXButton, SFCButton, MyButton };
